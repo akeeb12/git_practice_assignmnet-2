@@ -1,28 +1,21 @@
-function prime(num)
-
-let counter=0;
-
-	for (let i=1;i<=num;i++)
+function prime(number)
+let factors=0;
+	for (let i=1;i<=number;i++)
             {
-		if(num%i==0)
-
+		if(number%i==0)
 		{
-			counter++;					
+			factors++;					
 		}
-
-        }if(counter===2)
-
+        }if(factors===2)
 	{
 
 	  return true;
 
 	} return false;
 }
-
   let answer = prime(19);
 
 	 if(answer == true)
-
 	   {
 
 	     console.log("Prime);
@@ -31,4 +24,4 @@ let counter=0;
 
          {
 	  console.log("Not prime")
-           }
+     }
