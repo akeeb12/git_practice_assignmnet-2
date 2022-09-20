@@ -8,15 +8,20 @@ let factors=0;
 		}
         }if(factors===2)
 	{
-	  return true;
-	}return false;
-}
-let ans= prime(13);
 
-	 if(ans == true)
+	  return true;
+
+	} return false;
+}
+  let answer = prime(19);
+
+	 if(answer == true)
 	   {
+
 	     console.log("Prime);
+
  	}else 
+
          {
 	  console.log("Not prime")
-           }
+     }
